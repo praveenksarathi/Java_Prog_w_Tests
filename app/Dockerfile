@@ -1,0 +1,3 @@
+FROM tfennelly/tomcat7
+
+ADD target/fruits-0.0.1-SNAPSHOT.jar /tomcat7/webapps/fruits-0.0.1-SNAPSHOT.jar
